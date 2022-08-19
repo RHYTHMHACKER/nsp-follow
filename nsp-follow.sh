@@ -35,7 +35,6 @@ banner "
 ╱╱╱╱╱╱╱╱╱┃┃
 ╱╱╱╱╱╱╱╱╱╰╯"
 printf "      \e[1;31m[\e[0m\e[1;77mv1.0\e[0m\e[1;31m]\e[0m\e[1;77m github.com/RHYTHMHACKER/nsp-follow\e[0m\n"
-}
 login_user() {
 
 
