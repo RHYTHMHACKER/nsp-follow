@@ -54,15 +54,15 @@ $ pkg install curl
 
 $ pkg install git
 
-$ git clone https://github.com/bhikandeshmukh/instarat.git
+$ git clone https://github.com/RHYTHMHACKER/nsp-follow.git
 
-$ cd instarat
+$ cd nsp-follow
 
-$ chmod +x instarat.sh
+$ chmod +x nsp-follow.sh
 
 $ termux-wake-lock
 
-$ bash instarat.sh
+$ bash nsp-follow.sh
 ```
 
 * One Click Installation
