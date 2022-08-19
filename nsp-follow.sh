@@ -22,7 +22,7 @@ ig_sig="4f8732eb9ba7d1c8e8897a75d6474d4eb3f5279137431b2aafb71fafe2abe178"
 
 banner()
 {
-  printf "`tput sgr0`\n" "$@"
+  printf "\n" "$@"
 }
 
 banner "
