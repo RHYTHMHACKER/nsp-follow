@@ -22,7 +22,7 @@ ig_sig="4f8732eb9ba7d1c8e8897a75d6474d4eb3f5279137431b2aafb71fafe2abe178"
 
 banner()
 {
-  printf "\n" "$@"
+  printf "`tput bold` %-40s `tput sgr0`\n" "$@"
 }
 
 banner "
@@ -34,9 +34,10 @@ banner "
 ╰╯╱╰━┻━━━┫╭━┻╯╰━━╯╰╯╱╱╱╰╯
 ╱╱╱╱╱╱╱╱╱┃┃
 ╱╱╱╱╱╱╱╱╱╰╯" 
-
+´
+{
 printf " \e[1;31m[\e[0m\e[1;77mv1.0\e[0m\e[1;31m]\e[0m\e[1;77m github.com/RHYTHMHACKER/nsp-follow\e[0m\n"
-
+}
 
 
 login_user() {
