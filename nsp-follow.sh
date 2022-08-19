@@ -20,7 +20,7 @@ var=$(curl -i -s -H "$header" https://i.instagram.com/api/v1/si/fetch_headers/?c
 var2=$(echo $var | grep -o 'csrftoken=.*' | cut -d ';' -f1 | cut -d '=' -f2)
 ig_sig="4f8732eb9ba7d1c8e8897a75d6474d4eb3f5279137431b2aafb71fafe2abe178"
 
-banner() { toilet -f mono12 -f gay NSproYT }
+banner() { toilet -f NSproYT }
 {
 printf "  { \e[1;31m[\e[0m\e[1;77mv1.0\e[0m\e[1;31m]\e[0m\e[1;77m github.com/RHYTHMHACKER/nsp-follow\e[0m\n"
 }
