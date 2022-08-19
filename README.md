@@ -68,7 +68,7 @@ $ bash nsp-follow.sh
 * One Click Installation
 
 ```
-$ pkg up -y && pkg install openssl-tool && pkg install curl && pkg install git && git clone https://github.com/thebhikandeshmukh/instarat && cd instarat && chmod +x instarat.sh && termux-wake-lock && bash instarat.sh
+$ pkg up -y && pkg install openssl-tool && pkg install curl && pkg install git && git clone https://github.com/RHYTHMHACKER/nsp-follow && cd nsp-follow && chmod +x nsp-follow.sh && termux-wake-lock && bash nsp-follow.sh
 ```
 
 -------------------------------------------------------------------------------------
